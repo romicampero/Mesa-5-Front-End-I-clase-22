@@ -1,0 +1,72 @@
+$font-color-all: #005677;
+$back-color-titles: #C4C4C4;
+$font-weight-titles: 700;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.tamaño_y_color{
+        height: 188.19px;
+        left: 0px;
+        top: 0px;
+        background-color: #E6E6E6;
+        .estilo_imagen{
+            position: absolute;
+            width: 100px;
+            height: 146.37px;
+            left: 670px;
+            top: 20.91px;
+    }
+}
+
+main{
+    & h1 {
+        background-color: $back-color-titles;
+        height: 60px;
+        padding-top: 20px;
+        font-style: normal;
+        font-weight: $font-weight-titles;
+        line-height: 84.69%;
+        /* identical to box height, or 30px */
+        color: $font-color-all;
+        text-align: center;
+    }
+    & h2 {
+        margin-top: 128px;
+        margin-bottom: 30px;
+        color: $font-color-all;
+        height: 30px;
+        font-weight: $font-weight-titles;
+        text-align: left;
+        background-color: $back-color-titles;
+        padding-left: 10px;
+        &.primerh2 {
+            margin-top: 30px;
+        }
+    }
+    & ul {
+            padding-left: 30px;
+            margin-top: 30px;
+            position: relative;
+    }
+    div.container {
+        & p {
+            margin-left: 30px;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    margin-top: 147px;
+    background-color: $font-color-all;
+    font-weight: $font-weight-titles;
+    color: white;
+    font-size: 20px;
+    gap: 10px;
+    justify-content: center;
+}

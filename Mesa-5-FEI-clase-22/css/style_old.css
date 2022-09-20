@@ -1,0 +1,65 @@
+.tamaño_y_color{
+    width: 1440px;
+    height: 188.19px;
+    left: 0px;
+    top: 0px;
+    background-color: #E6E6E6;
+}
+.estilo_imagen{
+    position: absolute;
+    width: 100px;
+    height: 146.37px;
+    left: 670px;
+    top: 20.91px;
+}
+h1{
+    background-color: #C4C4C4;
+    position: absolute;
+    width:1013px;
+    height: 29.87px;
+    left: 100px;
+    top: 173px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 84.69%;
+    /* identical to box height, or 30px */
+    font-feature-settings: 'cpsp' on;
+    color: #005677;
+}
+.primerh2{
+    background-color:#C4C4C4;
+    position: absolute;
+    width: 1440px;
+    height: 30px;
+    left: 100px;
+    top: 376px;
+    position: absolute;
+    width: 395.62px;
+    height: 17px;
+    left: 12.45px;
+    top: 382px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+    /* identical to box height, or 17px */
+    font-feature-settings: 'cpsp' on;
+    color: #005677;
+}
+.lista{
+    position: absolute;
+    width: 199px;
+    height: 13px;
+    left: 100px;
+    top: 424px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 84.69%;
+    /* identical to box height, or 13px */
+    color: #000000;
+}
